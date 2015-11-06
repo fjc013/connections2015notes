@@ -4,7 +4,7 @@
 
 ### Opening Keynote, Marcus Ryu, Guidewire Connections
 
-Shaking things up - disruption e.g., Trov - hiding insurance sales in a gamified app that automatically categorizes and tracks important information about your stuff, including recipts.
+Shaking things up - disruption e.g., [Trov](http://www.trov.com/) - hiding insurance sales in a gamified app that automatically categorizes and tracks important information about your stuff, including recipts.
 
 **Big message**: Analytics and data visualization are the new drivers of everything.
 
@@ -30,8 +30,8 @@ Take away: Consumers are at the heart of the Digital Revolution.
 
 Companies that are killing it:
 
-* Kilimo Salama: providing agriculture protection in the third world using state of art on the ground sensors with an all mobile (SMS) delivery solution. Built to work with the least cutting edge/most available mobile technology.
-* MetroMile: Pay as you go car insurance. Great case of micro-segmentation product - those that drive less than 10k miles per year. Inexpensive monthly base payment plus roughly $0.03 per mile. Includes add on services such as Navigation, location services, etc.
+* [Kilimo Salama](https://kilimosalama.wordpress.com/): providing agriculture protection in the third world using state of art on the ground sensors with an all mobile (SMS) delivery solution. Built to work with the least cutting edge/most available mobile technology.
+* [MetroMile](https://www.metromile.com/insurance/): Pay as you go car insurance. Great case of micro-segmentation product - those that drive less than 10k miles per year. Inexpensive monthly base payment plus roughly $0.03 per mile. Includes add on services such as Navigation, location services, etc.
 
 Take Away #2: Companies should pivot their value proposition focusing on the consumer, using digital as the delivery mechanism.
 
