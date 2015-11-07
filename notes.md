@@ -257,3 +257,5 @@ Guidewire
 [Presentation Deck pdf](http://guidewireconnections2015.pathable.com/static/attachments/125504/1446780636.pdf?1446780636)
 
 [Session Video](http://fast.wistia.net/embed/iframe/c83xfjx1bg)
+
+Websphere comment about 20% throughput hit, compared to Tomcat or Jboss occurs at the 34:00 mark in the presetation video.
