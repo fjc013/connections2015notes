@@ -279,7 +279,7 @@ Most of the time, the App Tier resoures are greater than the DB resources. Espec
 
 **Distributed Work Queues** Batch style work may be distributed to online nodes, or nodes that exist only to handle specific batch processing. These are referred to as Distributed Worker nodes. This is implemented in configuration, covered in the documentation and training. Requires careful thread planning.
 
-Object cache trashing is the reason batch and online nodes are segregated.
+Object cache thrashing is the reason batch and online nodes are segregated.
 
 Data conversion is the major source of database stress. For ClaimCenter, one of the few times the DB will consume more resources than the App server.
 
