@@ -288,3 +288,93 @@ Online nodes scale horizontally, Batch nodes vertically.
 Websphere's complexity is the cause for the throughput hit. It basically has a longer path to go through to satisfy requests.
 
 The Guidewire Infrastruture Portal has all the documentation for topics mentioned here.
+
+### CHALK TALK: Best Practices for Guidewire Production Systems Maintenance
+
+Customers only. No slides or video recording.
+
+Guidewire provides a Production Support template maintenance plan - delivered in spreadsheet form. **Followup:** Haven't seen this in house yet.
+
+The template includes elements for tracking analysis data and planned changes.
+
+Guidewire recommends system admins who are dedicated to their platform, but also strongly encourages detailed documentation i.e., Run Books.
+
+It is recommended that Database Consistency Checks be run regularly, on a scheduled basis, and before and after releases for conflict comparison. For example, the DBCC delta report could be run weekly, while the full report would be run quarterly.
+
+**Table Purges**
+
+Guidewire provides batch jobs for table purges. For ClaimCenter, specifically, this is Purge Message History. It's recommended to run this as frequently as possible and commit in batches as it executes SQL DELETE. A reindexing of the table may be required afterwards.
+
+**Clusters**
+
+The Guidewire Infrastructure portal is full of KB articles about Cluster issues.
+
+**Batch Jobs**
+
+When performance starts to suffer, look at worker instances.
+
+The Work Info Queue page shows real-time usage, including worker count.
+
+WorkQueue.xml config file - set thread count here. May distribute threads to non-batch nodes and distributed worker nodes.
+
+Response time monitor accelerator is available from the GW Infrastructure portal. It is **not supported**.
+
+### BREAKOUT SESSION: Digital Architecture Deep Dive
+Guidewire digital products are architected with three distinct layers: a View layer, a User Experience (UX) Control layer, and an API layer. This session is a technical deep dive into this digital architecture. We discuss how the View layer enables easy look-and-feel customization, while the UX Control layer simplifies integration to web analytics, content management systems, and other complementary products.
+
+[Link to presentation slides](http://guidewireconnections2015.pathable.com/static/attachments/125532/1446843136.pdf?1446843136)
+
+[Link to presentation recording](http://fast.wistia.net/embed/iframe/45aefwaraf)
+
+**Backend Comparison**
+
+v3.0
+* Dependency injection framework
+* Line of Business framework
+* Pre-built UI library
+* Globalization
+
+v4.0
+* Unified Platform release
+* Validation elements
+* Expression language
+* View/Model
+* Unified Design approach across all platforms
+* Total UI refresh
+
+**UI**
+
+[What's the difference between Responsive and Adaptive Web Design](http://www.techrepublic.com/blog/web-designer/what-is-the-difference-between-responsive-vs-adaptive-web-design/)
+
+Gateway Portal for Agents uses tile navigation.
+
+(Vision) Future of Digital Architecture
+
+Key Elements
+* Customer experience
+    * Seamless across devices
+    * Adapts to customer preferences
+* Real time feedback
+    * Dynamic interactions
+    * Adaptable and predictable
+* Service Integrations
+    * Stable, complete APIs
+* Cloud Hosting
+    * Reliable and secure
+
+AWS Lambda is an example of functional execution.
+
+Log Click Stream data and augment with data providers.
+
+Achieve better profiling with data visualization, machine learning techniques, suplemented with 3rd party services
+
+React.js is the framework of the moment. Built with 1-way data binding, promises better performance.
+
+Today, the Guidewire portal products are built with Angular v1.0.
+
+User define widgets are coming to the GW Portal products - later.
+
+Today, the portal uses JSON/RPC, soon to be using RESTful APIs
+
+Looking for GW Portal resources, concentrate on Full Stack developers, plus Front-end developers. The Portals are javascript + GOSU.
+
