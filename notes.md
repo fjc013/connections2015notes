@@ -1,8 +1,14 @@
 # Connections 2015 Notes
 
-## Day 1 Monday, November 2nd
-
 ### Opening Keynote, Marcus Ryu, Guidewire Connections
+
+* [Link to Opening Keynote video recording](http://fast.wistia.net/embed/iframe/ywoi6a2cta)
+* [Link to Guidewire Product Keynote](http://fast.wistia.net/embed/iframe/q9lx3tnmu8)
+* [Customer Keynote: Metlife: Square Peg in a Round Hole](http://fast.wistia.net/embed/iframe/vxvovod8mk)
+* [Customer Keynote: From Here to There: Sharing the Story of Aviva's Journey with Guidewire](http://fast.wistia.net/embed/iframe/vw3g1fxiu7)
+* [Thought Leadership Keynote: Risk is Opportunity](http://fast.wistia.net/embed/iframe/522h4rxvw4)
+* [Customer Keynote: Farmers Insurance―Empowering Customers, Agents, and Employees](http://fast.wistia.net/embed/iframe/oa3eg6c6wj)
+* [Innovation Awards](http://fast.wistia.net/embed/iframe/n9tykcfwaw)
 
 Shaking things up - disruption e.g., [Trov](http://www.trov.com/) - hiding insurance sales in a gamified app that automatically categorizes and tracks important information about your stuff, including recipts.
 
@@ -380,3 +386,65 @@ Today, the portal uses JSON/RPC, soon to be using RESTful APIs
 
 Looking for GW Portal resources, concentrate on Full Stack developers, plus Front-end developers. The Portals are javascript + GOSU.
 
+### Roundtable Topic Discussion: Reducing Maintenance Headaches through Open Source Automation
+
+One of the key challenges encountered during core systems implementations is the lack of effective knowledge sharing that allows for companies to ramp up maintenance and support efforts post-rollout. Come learn about our innovative way to reduce maintenance headaches, ensure quality and stability, and transfer knowledge effectively through living specifications and open source based test automation.  As a bonus, learn how we enable teams to implement agile delivery of Guidewire with inherently higher quality.
+
+Moderators:
+
+```
+Chad Caldwell
+National Insurance Practice Partner
+Centric Consulting
+
+Joseph Ours
+National SQA & Testing Lead
+Centric Consulting
+```
+
+Centric has developed an Acceptance Test Driven Development framework using common open source tools. They use a Page-Object Design pattern, and UI tracking methods. The framework is written in Ruby and includes test data injection from sources such as DBs, YAML files, and spreadsheets. They have seamless integration with Jenkins.
+
+Centric only delivers their framework with training i.e., professional services. Their goal is to make the customer self sufficient within just a few days.
+
+The Guidewire applications present some challenges to test automation:
+* Ajax calls
+* Large DOM
+* Dynamic IDs
+* Browser differences
+    * Chrome is the fastest tested
+    * IE is the slowest
+
+The point of ATDD is to automate testing within the sprint code is developed in. No lagging.
+
+The Centric framework is outside-in testing. Browser to Application. Integration testing testing is also possible.
+
+The ATDD framework is a combination of automation + some manual effort + exploratory testing.
+
+The Gherkin syntax
+
+```
+# Scenario
+    Given: ....
+    And: ....
+    And: ....
+    When: ....
+    Then: ....
+```
+
+Left Shift Defect Resolution
+
+Centric recommends what they call an "amigos" meeting consisting of developers, Testers, BAs, and app owners to define acceptance criteria and write failing acceptance tests.
+
+The ATDD Tech Stack
+* Ruby
+* WATiR: Selenium wrapper - automates web browsers
+* Cucumber: requirements expression parsing from Gherkin
+* Gherkin: Business readable, Domain specific language
+* ODBC drivers
+* SOAP integrations
+
+ATDD test reports are html formatted and include failed scenario step plus screeshot of error and test code.
+
+Centric clams ATDD can replace HP's QTP/UFT at a fraction of the cost. Less than $200 per seat compared with several $1000s per seat.
+
+[Centric Consulting](http://www.centricconsulting.com)
