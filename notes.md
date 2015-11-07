@@ -247,3 +247,13 @@ Future plans:
 Accelerators used:
 * DocuSign
 * Oracle
+
+### Break Out Session: Guidewire Infrastructure Best Practices Overview
+Presenter:
+Dan Dunkle
+Principle Implemenentation Architect
+Guidewire
+
+[Presentation Deck pdf](http://guidewireconnections2015.pathable.com/static/attachments/125504/1446780636.pdf?1446780636)
+
+[Session Video](http://fast.wistia.net/embed/iframe/c83xfjx1bg)
