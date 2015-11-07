@@ -86,6 +86,8 @@ Keywords: micro segmentation, omnichannel.
 
 ### The Game Revolution
 
+[Link to presentation slide deck](http://guidewireconnections2015.pathable.com/static/attachments/125482/1446761555.pdf?1446761555)
+
 [Link to presentation video](http://fast.wistia.net/embed/iframe/p0b1i9rsbz)
 
 **Gamificaion** Not just a game.
