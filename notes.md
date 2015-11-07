@@ -259,3 +259,32 @@ Guidewire
 [Session Video](http://fast.wistia.net/embed/iframe/c83xfjx1bg)
 
 Websphere comment about 20% throughput hit, compared to Tomcat or Jboss occurs at the 34:00 mark in the presetation video.
+
+Definition (Dunkle @ 15:00 into session):Old space vs. new space. App server memory/heap. Cached objects reside in an area referred to as "old space", whereas transactional objects, those that are transformed into html for presentation reside in "new space". 
+
+Engagement Process:
+* Inception
+* Implementation
+* Post Go-Live
+
+Estimates are planned for peak utilization.
+
+Guidewire products are basically big data management applications. That are characterize by significant heap utilization. They make extensive use of object cache, for objects such as user session data. These objects could be long term residents, and this area of the heap is referred to as Old Space.
+
+Short lived objects, tyically those that are transformed into html for user presentation reside in an area of the heap referred to as New Space.
+
+Garbage collection may be a source of user response problems. The HotSpot JVM is particularly poor when given a large heap. Better to use multiple, smaller instances.
+
+Most of the time, the App Tier resoures are greater than the DB resources. Especially true for PolicyCenter.
+
+**Distributed Work Queues** Batch style work may be distributed to online nodes, or nodes that exist only to handle specific batch processing. These are referred to as Distributed Worker nodes. This is implemented in configuration, covered in the documentation and training. Requires careful thread planning.
+
+Object cache trashing is the reason batch and online nodes are segregated.
+
+Data conversion is the major source of database stress. For ClaimCenter, one of the few times the DB will consume more resources than the App server.
+
+Online nodes scale horizontally, Batch nodes vertically.
+
+Websphere's complexity is the cause for the throughput hit. It basically has a longer path to go through to satisfy requests.
+
+The Guidewire Infrastruture Portal has all the documentation for topics mentioned here.
