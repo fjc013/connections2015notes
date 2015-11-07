@@ -348,7 +348,7 @@ v4.0
 
 Gateway Portal for Agents uses tile navigation.
 
-(Vision) Future of Digital Architecture
+**(Vision) Future of Digital Architecture**
 
 Key Elements
 * Customer experience
