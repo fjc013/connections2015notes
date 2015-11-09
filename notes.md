@@ -1,5 +1,7 @@
 # Connections 2015 Notes
 
+*November 1st - 4th, San Francisco, CA*
+
 ### Opening Keynote, Marcus Ryu, Guidewire Connections
 
 * [Link to Opening Keynote video recording](http://fast.wistia.net/embed/iframe/ywoi6a2cta)
@@ -268,7 +270,7 @@ Guidewire
 
 Websphere comment about 20% throughput hit, compared to Tomcat or Jboss occurs at the 34:00 mark in the presetation video.
 
-Definition (Dunkle @ 15:00 into session):Old space vs. new space. App server memory/heap. Cached objects reside in an area referred to as "old space", whereas transactional objects, those that are transformed into html for presentation reside in "new space". 
+Definition (Dunkle @ 15:00 into session):Old space vs. new space. App server memory/heap. Cached objects reside in an area referred to as "old space", whereas transactional objects, those that are transformed into html for presentation reside in "new space".
 
 Engagement Process:
 * Inception
