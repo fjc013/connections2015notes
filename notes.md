@@ -4,6 +4,8 @@
 
 ### Opening Keynote, Marcus Ryu, Guidewire Connections
 
+---
+#### Keynote Links
 * [Link to Opening Keynote video recording](http://fast.wistia.net/embed/iframe/ywoi6a2cta)
 * [Link to Guidewire Product Keynote](http://fast.wistia.net/embed/iframe/q9lx3tnmu8)
 * [Customer Keynote: Metlife: Square Peg in a Round Hole](http://fast.wistia.net/embed/iframe/vxvovod8mk)
@@ -11,6 +13,7 @@
 * [Thought Leadership Keynote: Risk is Opportunity](http://fast.wistia.net/embed/iframe/522h4rxvw4)
 * [Customer Keynote: Farmers Insurance―Empowering Customers, Agents, and Employees](http://fast.wistia.net/embed/iframe/oa3eg6c6wj)
 * [Innovation Awards](http://fast.wistia.net/embed/iframe/n9tykcfwaw)
+---
 
 Shaking things up - disruption e.g., [Trov](http://www.trov.com/) - hiding insurance sales in a gamified app that automatically categorizes and tracks important information about your stuff, including recipts.
 
