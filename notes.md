@@ -29,7 +29,7 @@ More near future: Expect new integration and orchestration services, targeting s
 
 HP Empower looks to have the potential to replace our ELG services. Uses product set we already own as part of ExStream, but adds a "thin client" for document administration and work flow.
 
-### Enabling the Digital future
+### <a name="enabling-the-digital-future"></a>Enabling the Digital future
 #### Ayan Sarkar, Product VP
 
 [Link to Presentation video](http://fast.wistia.net/embed/iframe/9g5u79jhpq)
